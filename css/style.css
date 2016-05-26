@@ -1,0 +1,163 @@
+html, body{
+
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+body{
+	background: #efefef;
+	text-align: center;
+}
+
+ul{
+	list-style: none;
+	margin:0px;
+	padding: 0px;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+h1{
+	margin-top: 0px;
+	padding-top: 0.67em;
+
+}
+.title{
+	font-size: 26px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.container{
+	font-family: 'Lato', sans-serif;
+}
+.header{
+
+	width: 100%;
+	min-width: 1000px;
+	background: #1caff6;
+	height: 50px;
+	padding-top: 10px;
+	top: 0px;
+	left: 0px;
+	color: white;
+	text-align: center;
+}
+
+.header li{
+	display: inline-block;
+	margin-right: 10px;
+	margin-left: 10px;
+	border-radius: 100px;
+	padding: 8px 15px;
+}
+
+.header li.selected{
+	background: radial-gradient(#2E8AE6,#3399FF);
+}
+
+.header li:hover{
+	background: radial-gradient(#2E8AE6,#3399FF);
+
+}
+
+.content{
+	width: 1000px;
+	min-height: 1000px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.green{
+
+	color:  #8bc435;
+}
+
+.start{
+	display: inline-block;
+	background:  #8bc435;
+	width: 150px;
+	height: 20px;
+	border-radius: 25px;
+	color: white;
+	padding: 10px;
+}
+
+.hold{
+	background: black;
+	position: relative;
+}
+
+.n1{
+	color: #8bc435;
+	top: 20px;
+	display: inline-block;
+	position: absolute;
+	font-size: 24px;
+	font-weight: 45px;
+
+}
+
+.n2{
+	font-weight: 45px;
+	color: #1caff6;
+	font-size: 24px;
+	top:25px;
+	left: 508px;
+	position: absolute;
+	display: inline-block;
+}
+
+.square{
+	display: inline-block;
+	width:100px;
+	height:100px;
+	margin: 20px;
+	background: #ff0000;
+
+}
+
+.square4{
+
+	background: #ff1a1a;
+}
+
+.deco, .deco2, .deco3, .deco4, .deco5, .deco6, .deco7, .deco8, .deco9, .deco10, .deco11{
+
+	color:  #8bc435;
+	font-size: 1.5em;
+	display: inline-block;
+	font-weight: bold;
+	margin: 20px;
+	border: 5px solid #8bc435;
+	padding: 5px;
+
+}
+
+.submit, .submit2, .submit3{
+
+	display: inline-block;
+	background:  #8bc435;
+	width: 100px;
+	height: 15px;
+	border-radius: 20px;
+	color: white;
+	padding: 10px;
+	margin-top: 5px;
+
+}
+
+.inputbox{
+	margin-bottom: 5px;
+	margin-right: 20px;
+	height: 30px;
+	width: 200px;
+}
+
+.surrond{
+
+	position: relative;
+}
