@@ -459,7 +459,15 @@ var finish = function(){
 			case 13:
 			case 14:
 			case 15:
-				quiz.append("<h1>You got a whole "+ correctAnswers + " questions correct!</h1>")
+				quiz.append("<h1>You got a whole "+ correctAnswers + "/15 questions correct!</h1>")
+				for(var i = 0; i < answers.length; i++){
+
+					if(answers[i] == false){
+						var questionNumber = i + 1;
+						quiz.append("<h1>You got question "+ questionNumber+" wrong</h1>");
+					}
+
+				}
 			break;
 
 		}
